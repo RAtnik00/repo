@@ -1,0 +1,17 @@
+Package: com.ratnik00.nextclock
+Name: NextClock
+Description: Custom image-based lock screen clocks.
+Maintainer: RAtnik00
+Author: RAtnik00
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://ratnik00.github.io/repo/assets/nextclock-icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 7272
+Filename: debs/com.ratnik00.nextclock_0.1.1_iphoneos-arm64.deb
+Size: 6125180
+MD5sum: 516eb35db3a801a8a974e49bd2ad3249
+SHA1: ab67a0ee97ac1d3ec837d31f0c9595ff867d3195
+SHA256: e65e7473ed39a677d98ad0037febc2db30f57c2e8589ab56f0d5cc1780ea8c10
+
