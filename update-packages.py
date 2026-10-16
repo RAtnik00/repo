@@ -32,6 +32,11 @@ for path in sorted((root / 'debs').glob('*.deb')):
     if control is None:
         raise ValueError(f'Missing control: {path.name}')
     fields = control.rstrip('\n')
+    if 'Package: com.ratnik00.nextclock' in fields.splitlines():
+        fields = '\n'.join(line for line in fields.splitlines()
+                           if not line.startswith(('Depiction:', 'SileoDepiction:')))
+        fields += '\nDepiction: https://ratnik00.github.io/repo/depictions/nextclock/'
+        fields += '\nSileoDepiction: https://ratnik00.github.io/repo/depictions/nextclock/depiction.json'
     fields += f'\nFilename: debs/{path.name}\nSize: {len(data)}\n'
     for label, algorithm in [('MD5sum', 'md5'), ('SHA1', 'sha1'), ('SHA256', 'sha256')]:
         fields += f'{label}: {hashlib.new(algorithm, data).hexdigest()}\n'

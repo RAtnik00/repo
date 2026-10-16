@@ -9,6 +9,8 @@ Icon: https://ratnik00.github.io/repo/assets/nextclock-icon.png
 Architecture: iphoneos-arm64
 Version: 0.1.1
 Installed-Size: 7272
+Depiction: https://ratnik00.github.io/repo/depictions/nextclock/
+SileoDepiction: https://ratnik00.github.io/repo/depictions/nextclock/depiction.json
 Filename: debs/com.ratnik00.nextclock_0.1.1_iphoneos-arm64.deb
 Size: 6125180
 MD5sum: 516eb35db3a801a8a974e49bd2ad3249
@@ -26,6 +28,8 @@ Icon: https://ratnik00.github.io/repo/assets/nextclock-icon.png
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 7308
+Depiction: https://ratnik00.github.io/repo/depictions/nextclock/
+SileoDepiction: https://ratnik00.github.io/repo/depictions/nextclock/depiction.json
 Filename: debs/com.ratnik00.nextclock_1.0.0_iphoneos-arm64.deb
 Size: 6131588
 MD5sum: 3abfcc7042771926cf0b849a4e6bc4e8

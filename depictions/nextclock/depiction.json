@@ -1,0 +1,79 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://ratnik00.github.io/repo/assets/nextclock/NextClock-cover.png",
+  "tintColor": "#168BFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "NextClock"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Custom image-based lock screen clocks for rootless iOS 15. Choose your style with animated digit packs, or import your own.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{180, 320}",
+          "itemCornerRadius": 10,
+          "screenshots": [
+            {
+              "url": "https://ratnik00.github.io/repo/assets/nextclock/01-anime.png",
+              "accessibilityText": "Anime clock"
+            },
+            {
+              "url": "https://ratnik00.github.io/repo/assets/nextclock/02-sakura.png",
+              "accessibilityText": "Sakura clock"
+            },
+            {
+              "url": "https://ratnik00.github.io/repo/assets/nextclock/03-pixel.png",
+              "accessibilityText": "Pixel clock"
+            },
+            {
+              "url": "https://ratnik00.github.io/repo/assets/nextclock/04-settings.png",
+              "accessibilityText": "Pack and animation settings"
+            },
+            {
+              "url": "https://ratnik00.github.io/repo/assets/nextclock/05-options.png",
+              "accessibilityText": "Time and color settings"
+            },
+            {
+              "url": "https://ratnik00.github.io/repo/assets/nextclock/06-packs.png",
+              "accessibilityText": "Digit pack selection"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nRootless iOS 15, arm64. Tested on iPhone 7 Plus with iOS 15.8.8 and Dopamine.\n\nPromotional screenshots have been translated into English.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "RAtnik00"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "Free"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support the developer",
+          "action": "https://buycoffee.to/ratnik00"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Support is entirely optional and does not unlock additional features. Inspired by FlexClock; artwork from AniTime and credited pack creators.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
