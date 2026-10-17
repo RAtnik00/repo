@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Custom image-based lock screen clocks for rootless iOS 15. Choose your style with animated digit packs, or import your own.",
+          "markdown": "Custom image-based lock screen clocks for rootless iOS 15.0–15.8.8. Choose your style with animated digit packs, or import your own.",
           "useSpacing": true
         },
         {
@@ -50,8 +50,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats with optional seconds\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nRootless iOS 15. Includes arm64 and arm64e binaries. Confirmed working on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1), and iPhone 13 Pro Max (iOS 15.1.1). Other devices and iOS 15 versions require testing. The seconds display has been verified on iPhone 7 Plus; it has not yet been separately verified on the other listed devices.\n\nPromotional screenshots have been translated into English.\n\n### Version 1.0.1\n- Added optional seconds display\n- Added arm64e builds for the tweak and preferences bundle to fix settings loading on compatible devices",
+          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats with optional seconds\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nRootless iOS 15.0–15.8.8. Includes arm64 and arm64e binaries. Confirmed working on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1), and iPhone 13 Pro Max (iOS 15.1.1). Other devices and iOS 15 versions require testing. The seconds display has been verified on iPhone 7 Plus; it has not yet been separately verified on the other listed devices.\n\nPromotional screenshots have been translated into English.",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS compatibility",
+          "text": "15.0–15.8.8 (rootless)"
         },
         {
           "class": "DepictionTableTextView",
@@ -71,6 +76,30 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "Support is entirely optional and does not unlock additional features. Inspired by FlexClock; artwork from AniTime and credited pack creators.",
+          "useSpacing": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changes",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 1.0.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added an optional seconds display.\n- Added arm64e binaries for the tweak and preferences bundle.\n- Fixed preferences loading on tested arm64e devices.\n- Localized the seconds switch in English, Russian and Ukrainian.\n- Reset settings now also resets the seconds option.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- First stable release for rootless iOS 15 (arm64).\n- Custom static PNG and animated GIF/APNG digit packs, including Anime, CRT, Pixel and Sakura.\n- Pack selection, details, import from folders, ZIP and .nextclock archives, and deletion of imported packs.\n- Animation speed control and a still-image option for Low Power Mode.\n- Adjustable digit size, spacing, vertical offset and color tint.\n- System, 12-hour and 24-hour time formats, with optional date hiding.\n- Live preferences with English, Russian and Ukrainian localization.\n- Clock and date visibility follows temporary system status messages, including charging.\n- Settings reset and a SpringBoard restart button.",
           "useSpacing": true
         }
       ]
