@@ -36,3 +36,22 @@ MD5sum: 3abfcc7042771926cf0b849a4e6bc4e8
 SHA1: d4f8d93271c71b6a3b4d66feb097a04635ed8ef7
 SHA256: 41d1603d9f00315410b7e3f08f5fa1a2bd56c3b937a0124e4ae715739c9d9da2
 
+Package: com.ratnik00.nextclock
+Name: NextClock
+Description: Custom image-based lock screen clocks.
+Maintainer: RAtnik00
+Author: RAtnik00
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://ratnik00.github.io/repo/assets/nextclock-icon.png
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 7548
+Depiction: https://ratnik00.github.io/repo/depictions/nextclock/
+SileoDepiction: https://ratnik00.github.io/repo/depictions/nextclock/depiction.json
+Filename: debs/com.ratnik00.nextclock_1.0.1_iphoneos-arm64.deb
+Size: 6144376
+MD5sum: a149ab2ea0f31ae7f5b0ffe68899c260
+SHA1: 9583f65f2aa39f8e6e653f96092f7f71b277b057
+SHA256: 81ef59ac8c57ea51e0a30ea0ce62ccfbf5c4743e52b6e8dd4abf62a0a07e0ace
+

@@ -50,7 +50,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nRootless iOS 15, arm64. Tested on iPhone 7 Plus with iOS 15.8.8 and Dopamine.\n\nPromotional screenshots have been translated into English.",
+          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats with optional seconds\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nRootless iOS 15. Includes arm64 and arm64e binaries. Confirmed working on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1), and iPhone 13 Pro Max (iOS 15.1.1). Other devices and iOS 15 versions require testing. The seconds display has been verified on iPhone 7 Plus; it has not yet been separately verified on the other listed devices.\n\nPromotional screenshots have been translated into English.\n\n### Version 1.0.1\n- Added optional seconds display\n- Added arm64e builds for the tweak and preferences bundle to fix settings loading on compatible devices",
           "useSpacing": true
         },
         {
