@@ -54,9 +54,38 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionHeaderView",
+          "title": "Information",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
           "class": "DepictionTableTextView",
-          "title": "iOS compatibility",
-          "text": "15.0–15.8.8 (rootless)"
+          "title": "Version",
+          "text": "1.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "6.14 MB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions",
+          "text": "15.0 – 15.8.8"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Updated",
+          "text": "October 17, 2026"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Architectures",
+          "text": "arm64, arm64e"
         },
         {
           "class": "DepictionTableTextView",
@@ -82,11 +111,13 @@
     },
     {
       "class": "DepictionStackView",
-      "tabname": "Changes",
+      "tabname": "Changelog",
       "views": [
         {
-          "class": "DepictionHeaderView",
-          "title": "Version 1.0.1"
+          "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useMargins": true,
+          "useBoldText": true
         },
         {
           "class": "DepictionMarkdownView",
@@ -94,8 +125,10 @@
           "useSpacing": true
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "Version 1.0.0"
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useMargins": true,
+          "useBoldText": true
         },
         {
           "class": "DepictionMarkdownView",
