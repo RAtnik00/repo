@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**NextClock 1.1.0 beta 1 — public testing**\n\nPublic beta: iOS 16–17 support is experimental and has not been verified on a device. iOS 15 uses the legacy adapter. A compatible rootless jailbreak and tweak injection are required; TrollStore alone is not enough. Keep version 1.0.1 available for rollback.\n\nCustom image-based lock screen clocks with animated packs and custom imports.",
+          "markdown": "**NextClock 1.1.0 beta 2 — public testing**\n\nPublic beta: iOS 16–17 support remains experimental. The adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. New charging/status and wallpaper/music-transition fixes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. Stable 1.0.1 remains available for rollback.\n\nCustom image-based lock screen clocks with animated packs and custom imports.",
           "useSpacing": true
         },
         {
@@ -55,7 +55,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats with optional seconds\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nPublic beta: iOS 16–17 support is experimental and has not been verified on a device. iOS 15 uses the legacy adapter. A compatible rootless jailbreak and tweak injection are required; TrollStore alone is not enough. Keep version 1.0.1 available for rollback.\n\nPreviously confirmed stable-version devices on iOS 15: Includes arm64 and arm64e binaries. Confirmed working on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1), and iPhone 13 Pro Max (iOS 15.1.1). Other devices and iOS 15 versions require testing. The seconds display has been verified on iPhone 7 Plus; it has not yet been separately verified on the other listed devices.\n\nPromotional screenshots have been translated into English.",
+          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats with optional seconds\n- Optional date hiding and tint colors\n- English, Ukrainian and Russian localization\n\n### Compatibility\nPublic beta: iOS 16–17 support remains experimental. The adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. New charging/status and wallpaper/music-transition fixes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. Stable 1.0.1 remains available for rollback.\n\nPreviously confirmed stable-version devices on iOS 15: Includes arm64 and arm64e binaries. Confirmed working on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1), and iPhone 13 Pro Max (iOS 15.1.1). Other devices and iOS 15 versions require testing. The seconds display has been verified on iPhone 7 Plus; it has not yet been separately verified on the other listed devices.\n\nPromotional screenshots have been translated into English.",
           "useSpacing": true
         },
         {
@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.0 beta 1"
+          "text": "1.1.0 beta 2"
         },
         {
           "class": "DepictionTableTextView",
@@ -118,6 +118,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.0 beta 2 — Compatibility fixes",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed modern adapter selection on systems with setDisplayDate: but no displayDate getter.\n- Capture display dates from the system setter instead of calling a missing getter.\n- Added transient-subtitle detection and guarded subtitle-update hooks to address charging/status overlap (needs device testing).\n- Added per-instance stock-clock visibility handling for wallpaper and music-artwork transitions (needs device testing).\n- Expanded diagnostics with selector availability and instance method names.\n\nPublic beta: iOS 16–17 support remains experimental. The adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. New charging/status and wallpaper/music-transition fixes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. Stable 1.0.1 remains available for rollback.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.0 beta 1 — Public testing",

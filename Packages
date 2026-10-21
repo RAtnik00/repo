@@ -74,3 +74,22 @@ MD5sum: 33a6a2c1fb32d71ea81c770d68a4dc23
 SHA1: ceec57360c9f473c9c23b6067fbc49089de52df7
 SHA256: 7768eb4c9ba7738f9043b120caab2889e8e516ba37b1e2d0fed732cc488565c3
 
+Package: com.ratnik00.nextclock
+Name: NextClock
+Description: Animated clocks. iOS 15 support; experimental iOS 16-17 beta, device testing required.
+Maintainer: RAtnik00
+Author: RAtnik00
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://ratnik00.github.io/repo/assets/nextclock-icon.png
+Architecture: iphoneos-arm64
+Version: 1.1.0~beta2
+Installed-Size: 18928
+Depiction: https://ratnik00.github.io/repo/depictions/nextclock/
+SileoDepiction: https://ratnik00.github.io/repo/depictions/nextclock/depiction.json
+Filename: debs/com.ratnik00.nextclock_1.1.0~beta2_iphoneos-arm64.deb
+Size: 14518194
+MD5sum: d7c2c537151b26329f3a26d3a9e5df20
+SHA1: 408e20cf784972e730e2ec34a569ee81dfacf96f
+SHA256: 23bd59dde90e14cc6990d25db4f78774c64b9d134f90d5b29cc01b95fe6507b7
+
