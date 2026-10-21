@@ -29,6 +29,29 @@
     }
     code { overflow-wrap: anywhere; }
     .note { color: #b4bac5; }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 24px 0;
+    }
+
+    .buttons .button {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0;
+    }
+
+    .button img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+    }
+
+    .button.zebra {
+      background: #f3f4f6;
+    }
   </style>
 </head>
 <body>
@@ -37,10 +60,19 @@
     <h1>RAtnik00 Repo</h1>
     <p>Free jailbreak tweaks for your iPhone.</p>
 
-    <a class="button"
-       href="sileo://source/https://ratnik00.github.io/repo/">
-      Add to Sileo
-    </a>
+    <div class="buttons">
+      <a class="button"
+         href="sileo://source/https://ratnik00.github.io/repo/">
+        <img src="assets/sileo.png" alt="">
+        Add to Sileo
+      </a>
+
+      <a class="button zebra"
+         href="zbra://sources/add/https://ratnik00.github.io/repo/">
+        <img src="assets/zebra.svg" alt="">
+        Add to Zebra
+      </a>
+    </div>
 
     <p>Or copy this address into your package manager:</p>
     <p><code>https://ratnik00.github.io/repo/</code></p>
