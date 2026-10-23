@@ -14,12 +14,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**NextClock 1.1.0 beta 3 — public testing**\n\nPublic beta: iOS 16–17 support remains experimental. The earlier adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. The new wake-up flicker change and charging/transition changes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. Stable 1.0.1 remains available for rollback.\n\nCustom image-based lock screen clocks with animated packs and custom imports.",
+          "markdown": "**NextClock 1.1.0**\n\nAnimated image-based Lock Screen clocks, six bundled packs and custom imports. Includes the new Halloween pumpkin pack and a seasonal greeting in settings.",
           "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Reporting a beta issue\nInclude your iPhone/iPad model, exact iOS version/build, jailbreak, reproduction steps and a screenshot/video. Use **Settings → NextClock → Export diagnostics** to attach the local structural report. Lock and wake the device once first. Reports are shared only when you choose to send them.",
+          "markdown": "### Reporting an issue\nInclude your iPhone/iPad model, exact iOS version/build, jailbreak, reproduction steps and a screenshot/video. Use **Settings → NextClock → Export diagnostics** to attach the local structural report. Lock and wake the device once first. Reports are shared only when you choose to send them.",
           "useSpacing": true
         },
         {
@@ -55,7 +55,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n- Static and animated digit packs\n- Import and manage custom packs\n- Animation speed and Low Power Mode options\n- Digit size, spacing and vertical offset\n- System, 12-hour and 24-hour time formats with optional seconds\n- Optional date hiding and tint colors\n- English, Ukrainian, Russian, German, Polish, Swedish and Norwegian Bokmål localization\n\n### Compatibility\nPublic beta: iOS 16–17 support remains experimental. The earlier adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. The new wake-up flicker change and charging/transition changes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. Stable 1.0.1 remains available for rollback.\n\nPreviously confirmed stable-version devices on iOS 15: Includes arm64 and arm64e binaries. Confirmed working on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1), and iPhone 13 Pro Max (iOS 15.1.1). Other devices and iOS 15 versions require testing. The seconds display has been verified on iPhone 7 Plus; it has not yet been separately verified on the other listed devices.\n\nPromotional screenshots have been translated into English.",
+          "markdown": "### Features\n- Six bundled packs, including Circuit and animated Halloween\n- Import folders, ZIP and .nextclock packs\n- Animation speed, Low Power Mode, size, spacing and vertical offset\n- System/12-hour/24-hour time, optional seconds, date hiding and tint\n- Nine languages: English, Ukrainian, Russian, German, Polish, Swedish, Norwegian Bokmål, Italian and French\n\n### Compatibility\nRootless iOS 15 supported. iOS 16–17 support remains experimental with limited tester reports. Includes arm64 and arm64e binaries. Requires a compatible jailbreak with tweak injection and PreferenceLoader; TrollStore alone is not enough. iOS 13–14 is not supported in this release.\n\nPreviously confirmed on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1) and iPhone 13 Pro Max (iOS 15.1.1). Limited beta reports include iPhone X / iOS 16.1.2 / Roothide and iPhone 14 / iOS 16.6 / nathanLR. Latest local checks passed on the development iPhone 7 Plus.\n\nPromotional screenshots have been translated into English.",
           "useSpacing": true
         },
         {
@@ -70,22 +70,22 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.0 beta 3"
+          "text": "1.1.0"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "14.52 MB"
+          "text": "25.44 MB"
         },
         {
           "class": "DepictionTableTextView",
           "title": "iOS Versions",
-          "text": "15.x; 16–17 experimental beta"
+          "text": "15.x; 16–17 experimental"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "October 22, 2026"
+          "text": "October 23, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -118,6 +118,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.0 — Halloween & charging fixes",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added the animated Halloween pumpkin pack, static fallback and a greeting at the top of settings.\n- Added Italian and French; nine languages in total.\n- Improved charging transitions on iOS 15: hide clocks/date before the battery and restore them after the return animation.\n- Corrected the animation timeline closing frame.\n- Improved .nextclock file selection and validation of malformed ZIP archives.\n- Unified About/diagnostics versions and updated compatibility information.\n- Includes the Circuit pack, modern adapter fixes and wake-up changes from the beta series.\n\nRootless iOS 15 supported. iOS 16–17 support remains experimental with limited tester reports. Includes arm64 and arm64e binaries. Requires a compatible jailbreak with tweak injection and PreferenceLoader; TrollStore alone is not enough. iOS 13–14 is not supported in this release.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.0 beta 3 — Languages and wake-up testing",
