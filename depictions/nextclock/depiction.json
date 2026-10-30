@@ -14,7 +14,17 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**NextClock 1.1.0**\n\nAnimated image-based Lock Screen clocks, six bundled packs and custom imports. Includes the new Halloween pumpkin pack and a seasonal greeting in settings.",
+          "markdown": "**1.2.0 beta 1 — public testing**\n\nFavorite packs with opt-in double-tap switching and an animated preview before applying. Profile saving remains Pro-only. Preview is illustrative; actual Lock Screen layout can differ. New changes need device testing.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Stable releases / Downgrade",
+          "action": "https://ratnik00.github.io/repo/releases/"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Stable baseline: NextClock 1.1.0**\n\nAnimated image-based Lock Screen clocks, six bundled packs and custom imports. Includes the new Halloween pumpkin pack and a seasonal greeting in settings.",
           "useSpacing": true
         },
         {
@@ -70,12 +80,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.0"
+          "text": "1.2.0~beta1"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "25.44 MB"
+          "text": "25.46 MB"
         },
         {
           "class": "DepictionTableTextView",
@@ -85,7 +95,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "October 23, 2026"
+          "text": "October 30, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -118,6 +128,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.0 beta 1 — Favorites & Preview",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Choose favorite packs in Settings; enable double-tap switching and select at least two. Deleted or unavailable packs are skipped.\n- Animated preview with draft appearance controls and explicit Apply; existing Lock Screen settings change only when applied.\n- Fixed preview animation restarting while its page was no longer visible after returning from the background.\n- Added a stable release archive and a shortcut in Settings for rollback to 1.1.0. Existing stable packages are retained.\n- Profile saving remains Pro-only.\n\nPublic beta. Built for arm64 and arm64e. iOS 16–17 compatibility remains experimental. Device testing of gestures, charging and wallpaper editing is required.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.0 — Halloween & charging fixes",
