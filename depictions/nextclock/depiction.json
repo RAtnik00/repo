@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.2.0 beta 1 — public testing**\n\nFavorite packs with opt-in double-tap switching and an animated preview before applying. Profile saving remains Pro-only. Preview is illustrative; actual Lock Screen layout can differ. New changes need device testing.",
+          "markdown": "**1.2.0 beta 3 — public testing**\n\nNative grouped settings, animated preview with Apply, favorite packs and opt-in double-tap switching. Adds Dynamic Type, VoiceOver labels and system Reduce Motion support. Profile saving remains Pro-only. User testing passed on the development device; iOS 16–17 compatibility remains experimental. Stable 1.1.1 remains available for rollback.",
           "useSpacing": true
         },
         {
@@ -80,12 +80,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.0~beta1"
+          "text": "1.2.0~beta3"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "25.46 MB"
+          "text": "25.47 MB"
         },
         {
           "class": "DepictionTableTextView",
@@ -95,7 +95,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "October 30, 2026"
+          "text": "October 31, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -128,6 +128,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.0 beta 3 — Redesigned settings",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Redesigned the editor with native grouped lists and separate checkmarked selection pages for packs, colors and time formats.\n- Consolidated appearance controls, including color presets and Low Power Mode behavior.\n- Added Dynamic Type, VoiceOver labels, localized slider values and system Reduce Motion support.\n- Apply is available only for changed drafts; changes remain unapplied until you tap it.\n- Added confirmation before restarting SpringBoard.\n- Preview animations pause when the page or preview leaves the screen.\n- Includes favorite packs, optional double-tap switching and stable-release rollback links from earlier betas.\n\nPublic beta for rootless iOS 15, with experimental iOS 16–17 support. Includes arm64 and arm64e. A compatible jailbreak with tweak injection is required. The earlier Havoc iOS 15.1 respring report is not independently confirmed fixed.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.1",
