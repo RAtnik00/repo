@@ -130,6 +130,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.1",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Bug fix.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.2.0 beta 1 — Favorites & Preview",
           "useMargins": true,
           "useBoldText": true
