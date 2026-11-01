@@ -116,6 +116,25 @@ MD5sum: 944cd7c611f9386f0061cff873743d88
 SHA1: 2e4f738d829da339dd12f5d97d4d3523d6e78422
 SHA256: 681e7a4cda1664f98e89fd1343d864e06935f0f48ee237580309def7ca6b41cb
 
+Package: com.iosdump.zone
+Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original Zone tweak by iosdump (iosdumpzzz). Original Zone 2.1.0 binaries are unchanged.
+Maintainer: RAtnik00
+Author: iosdump (original tweak); RAtnik00 (translation)
+Icon: https://ratnik00.github.io/repo/assets/zone/icon.png
+Depiction: https://ratnik00.github.io/repo/depictions/zone/
+SileoDepiction: https://ratnik00.github.io/repo/depictions/zone/depiction.json
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.1.0+translation2
+Filename: debs/com.iosdump.zone_2.1.0+translation2_iphoneos-arm64.deb
+Size: 233742
+MD5sum: cb8c5ee06b67f214d1b9e5607023deaa
+SHA1: 9f4aa14a93d24aa89ca9b828207cc731ba729a9d
+SHA256: ade1442169fb27999b572830f377e186c1fc131bf0a7397e3a361451950eeebd
+
 Package: com.ratnik00.nextclock
 Name: NextClock
 Description: Custom image-based lock screen clocks.

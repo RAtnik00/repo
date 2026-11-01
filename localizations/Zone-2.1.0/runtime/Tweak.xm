@@ -91,6 +91,31 @@ static NSString *ZLOriginalText(id object, NSString *fallback) {
     return objc_getAssociatedObject(object, &ZLOriginalTextKey) ?: fallback;
 }
 
+static NSAttributedString *ZLTranslateAttributedText(NSAttributedString *text) {
+    if (![text isKindOfClass:NSAttributedString.class] || text.length == 0) return text;
+    NSString *translated = ZLTranslate(text.string);
+    if ([translated isEqualToString:text.string]) return text;
+
+    NSMutableAttributedString *result = [[NSMutableAttributedString alloc] initWithString:translated];
+    NSDictionary *baseAttributes = [text attributesAtIndex:0 effectiveRange:NULL];
+    if (baseAttributes.count) [result addAttributes:baseAttributes range:NSMakeRange(0, result.length)];
+
+    // Preserve clickable author/channel/repository ranges after their line text changes.
+    [text enumerateAttribute:NSLinkAttributeName
+                     inRange:NSMakeRange(0, text.length)
+                     options:0
+                  usingBlock:^(id value, NSRange range, BOOL *stop) {
+        if (!value || NSMaxRange(range) > text.string.length) return;
+        NSString *linkedText = [text.string substringWithRange:range];
+        NSRange translatedRange = [translated rangeOfString:linkedText];
+        if (translatedRange.location != NSNotFound) {
+            NSDictionary *attributes = [text attributesAtIndex:range.location effectiveRange:NULL];
+            [result addAttributes:attributes range:translatedRange];
+        }
+    }];
+    return result;
+}
+
 %hook UILabel
 - (void)setText:(NSString *)text {
     ZLRememberOriginalText(self, text);
@@ -98,13 +123,7 @@ static NSString *ZLOriginalText(id object, NSString *fallback) {
     %orig;
 }
 - (void)setAttributedText:(NSAttributedString *)text {
-    if (text.length) {
-        NSString *translated = ZLTranslate(text.string);
-        if (![translated isEqualToString:text.string]) {
-            NSDictionary *attributes = [text attributesAtIndex:0 effectiveRange:NULL] ?: @{};
-            text = [[NSAttributedString alloc] initWithString:translated attributes:attributes];
-        }
-    }
+    text = ZLTranslateAttributedText(text);
     %orig;
 }
 %end
@@ -113,6 +132,10 @@ static NSString *ZLOriginalText(id object, NSString *fallback) {
 - (void)setText:(NSString *)text {
     ZLRememberOriginalText(self, text);
     text = ZLTranslate(text);
+    %orig;
+}
+- (void)setAttributedText:(NSAttributedString *)text {
+    text = ZLTranslateAttributedText(text);
     %orig;
 }
 %end
