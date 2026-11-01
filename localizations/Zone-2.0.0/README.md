@@ -1,9 +1,9 @@
-# Zone 2.0.0 — community localization
+# Zone 2.0.0 — multilingual community translation
 
 **Original author:** iosdumpzzz (iosdump).
 
-**Translation:** RAtnik00. This is an unofficial text localization only. It does not claim authorship of Zone, and the original executable binaries are unchanged. Upstream package repository: [iosdumpzzz/iosdump.repo](https://github.com/iosdumpzzz/iosdump.repo).
+**Translation and runtime localization:** RAtnik00. This is an unofficial text translation only. It does not claim authorship of Zone. The original `ZonePrefs` and `Zone` executable binaries are unchanged. Upstream package repository: [iosdumpzzz/iosdump.repo](https://github.com/iosdumpzzz/iosdump.repo).
 
-The main Settings page includes English, Russian, and Ukrainian labels. Other screens remain untranslated because their strings are embedded in the provided compiled `ZonePrefs` binary.
+English, Russian, and Ukrainian tables cover all 127 UTF-16 string constants extracted from the supplied `ZonePrefs` binary. A runtime hook translates hard-coded labels, explanatory text, menus, alerts, editing actions, and formatted count/name strings according to the device language. Static Settings labels use `Root.strings`; runtime hook source and build files are in `runtime/`.
 
-Translation source files are in `en.lproj`, `ru.lproj`, and `uk.lproj`. Installable packages are provided for `iphoneos-arm`, `iphoneos-arm64`, and `iphoneos-arm64e`.
+Installable packages are provided for `iphoneos-arm`, `iphoneos-arm64`, and `iphoneos-arm64e`. Some text supplied directly by iOS may continue to follow the system language. The updated package compiled successfully and its contents were checked, but it has not yet been tested on a physical device.

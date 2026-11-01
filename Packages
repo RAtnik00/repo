@@ -49,6 +49,57 @@ MD5sum: a372839586f3fb6cfaf8d0f919c9d878
 SHA1: f4e70c685b37d28c216ad2e1bb2f307e229bfb65
 SHA256: bd117f614084eefe198c4077ba91c3e8bb09fa8fa73860521d9247d0d43b58ae
 
+Package: com.iosdump.zone
+Name: Zone (multilingual translation)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original Zone tweak by iosdumpzzz (iosdump). Translation only; original ZonePrefs and Zone binaries are unchanged.
+Maintainer: RAtnik00
+Author: iosdumpzzz (iosdump); translation by RAtnik00
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 2.0.0+translation2
+Installed-Size: 1315
+Filename: debs/com.iosdump.zone_2.0.0+translation2_iphoneos-arm.deb
+Size: 226580
+MD5sum: f41fb94b3be3ca767a8b81e433a27c82
+SHA1: 0d7b93b137a01620765de0cc07bb6291a86c91a7
+SHA256: 7989213767e6c367992d635e082d60f38b97884d2b313c4401c36e3526c86430
+
+Package: com.iosdump.zone
+Name: Zone (multilingual translation)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original Zone tweak by iosdumpzzz (iosdump). Translation only; original ZonePrefs and Zone binaries are unchanged.
+Maintainer: RAtnik00
+Author: iosdumpzzz (iosdump); translation by RAtnik00
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.0+translation2
+Installed-Size: 1315
+Filename: debs/com.iosdump.zone_2.0.0+translation2_iphoneos-arm64.deb
+Size: 225910
+MD5sum: b555148002abe4e24c143e7fdd4f7e74
+SHA1: 52fb07b6cc4a40c5e89e824603b96f2248d0f893
+SHA256: 8d885e2228183d5af3d8d517c93c9218c4b07b4ee53adae54cc7ea94ef7da159
+
+Package: com.iosdump.zone
+Name: Zone (multilingual translation)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original Zone tweak by iosdumpzzz (iosdump). Translation only; original ZonePrefs and Zone binaries are unchanged.
+Maintainer: RAtnik00
+Author: iosdumpzzz (iosdump); translation by RAtnik00
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.0+translation2
+Installed-Size: 1314
+Filename: debs/com.iosdump.zone_2.0.0+translation2_iphoneos-arm64e.deb
+Size: 224542
+MD5sum: 1bf1567c9db2144f23ed296120da9164
+SHA1: 272fdc497a9850ec704ceb9d3f3f252d8a727dfc
+SHA256: ed1cf71b0177f841ef1ccd51fbcadfbe439b5f666abf12fa2531a24914c250d6
+
 Package: com.ratnik00.nextclock
 Name: NextClock
 Description: Custom image-based lock screen clocks.
