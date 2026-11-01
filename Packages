@@ -1,3 +1,54 @@
+Package: com.iosdump.zone
+Name: Zone (multilingual translation)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original tweak by iosdumpzzz (iosdump). Text localization only; original binaries unchanged.
+Maintainer: RAtnik00
+Author: iosdumpzzz (iosdump); translation by RAtnik00
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 2.0.0+translation1
+Installed-Size: 1148
+Filename: debs/com.iosdump.zone_2.0.0+translation1_iphoneos-arm.deb
+Size: 208966
+MD5sum: 305bff69eaafef76ba3f45da9ce6e57c
+SHA1: b91ff01ae41bc74b090a828e8bd82c7cdb37fd1c
+SHA256: 74393ca11136e6a91e44d8ef24e9a41287b182ca01bc257c739b39d710a03ceb
+
+Package: com.iosdump.zone
+Name: Zone (multilingual translation)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original tweak by iosdumpzzz (iosdump). Text localization only; original binaries unchanged.
+Maintainer: RAtnik00
+Author: iosdumpzzz (iosdump); translation by RAtnik00
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.0+translation1
+Installed-Size: 1148
+Filename: debs/com.iosdump.zone_2.0.0+translation1_iphoneos-arm64.deb
+Size: 208640
+MD5sum: 61fc98f7fcd48e0ecdec9c8582a5dd7c
+SHA1: 7f9212e762f5ffe63b3b0646724486b613447a3f
+SHA256: 6b07c8ea1cce7a49e7d5ba876938d4572fa7dfcd894da1e089fd351b4f378e4e
+
+Package: com.iosdump.zone
+Name: Zone (multilingual translation)
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Unofficial English, Russian and Ukrainian translation by RAtnik00.
+ Original tweak by iosdumpzzz (iosdump). Text localization only; original binaries unchanged.
+Maintainer: RAtnik00
+Author: iosdumpzzz (iosdump); translation by RAtnik00
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.0+translation1
+Installed-Size: 1144
+Filename: debs/com.iosdump.zone_2.0.0+translation1_iphoneos-arm64e.deb
+Size: 206928
+MD5sum: a372839586f3fb6cfaf8d0f919c9d878
+SHA1: f4e70c685b37d28c216ad2e1bb2f307e229bfb65
+SHA256: bd117f614084eefe198c4077ba91c3e8bb09fa8fa73860521d9247d0d43b58ae
+
 Package: com.ratnik00.nextclock
 Name: NextClock
 Description: Custom image-based lock screen clocks.
