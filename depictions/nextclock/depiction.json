@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.2.0 beta 3 — public testing**\n\nNative grouped settings, animated preview with Apply, favorite packs and opt-in double-tap switching. Adds Dynamic Type, VoiceOver labels and system Reduce Motion support. Profile saving remains Pro-only. User testing passed on the development device; iOS 16–17 compatibility remains experimental. Stable 1.1.1 remains available for rollback.",
+          "markdown": "**1.2.0 beta 4 — public testing**\n\nNew Date controls: System, Rounded, Serif and Monospaced fonts, relative size (60–160%) and font weight. Preview before applying. The default date style remains unchanged. Includes the native editor, favorites and accessibility improvements from beta 3. New font behavior needs device feedback. iOS 16–17 remains experimental; stable 1.1.1 is available for rollback.",
           "useSpacing": true
         },
         {
@@ -80,12 +80,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.0~beta3"
+          "text": "1.2.0~beta4"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "25.47 MB"
+          "text": "25.48 MB"
         },
         {
           "class": "DepictionTableTextView",
@@ -95,7 +95,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "October 31, 2026"
+          "text": "November 2, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -128,6 +128,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.0 beta 4 — Date fonts",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added date font customization in Configure clock → Date, following a community request.\n- Choose System, Rounded, Serif or Monospaced design.\n- Adjust date size from 60% to 160% and choose System, Regular, Medium, Semibold or Bold weight.\n- Preview changes before tapping Apply. Existing settings and old profiles retain the system date style by default.\n- Date style is included in Pro appearance profiles and cleared by Reset settings.\n- Styles only date labels, preserving native fonts for restore and leaving clock image packs and charging text outside the font target.\n\nPublic beta: new font behavior, clipping and restoration need device testing, especially on experimental iOS 16–17 adapters. If a font host is incompatible, native date rendering is retained. Previous Havoc iOS 15.1 respring report is not confirmed resolved. Stable 1.1.1 remains available.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.2.0 beta 3 — Redesigned settings",
