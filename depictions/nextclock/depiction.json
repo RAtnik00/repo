@@ -18,9 +18,9 @@
           "useSpacing": true
         },
         {
-          "class": "DepictionTableButtonView",
-          "title": "Stable releases / Downgrade",
-          "action": "https://ratnik00.github.io/repo/releases/"
+          "class": "DepictionMarkdownView",
+          "markdown": "You can always roll back to the stable release 1.1.1.",
+          "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
@@ -153,7 +153,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Added date font customization in Configure clock → Date, following a community request.\n- Choose System, Rounded, Serif or Monospaced design.\n- Adjust date size from 60% to 160% and choose System, Regular, Medium, Semibold or Bold weight.\n- Preview changes before tapping Apply. Existing settings and old profiles retain the system date style by default.\n- Date style is included in Pro appearance profiles and cleared by Reset settings.\n- Styles only date labels, preserving native fonts for restore and leaving clock image packs and charging text outside the font target.\n\nPublic beta: new font behavior, clipping and restoration need device testing, especially on experimental iOS 16–17 adapters. If a font host is incompatible, native date rendering is retained. Previous Havoc iOS 15.1 respring report is not confirmed resolved. The stable release remains available.",
+          "markdown": "- Added date font customization in Configure clock → Date, following a community request.\n- Choose System, Rounded, Serif or Monospaced design.\n- Adjust date size from 60% to 160% and choose System, Regular, Medium, Semibold or Bold weight.\n- Preview changes before tapping Apply. Existing settings and old profiles retain the system date style by default.\n- Date style is included in Pro appearance profiles and cleared by Reset settings.\n- Styles only date labels, preserving native fonts for restore and leaving clock image packs and charging text outside the font target.\n\nPublic beta: new font behavior, clipping and restoration need device testing, especially on experimental iOS 16–17 adapters. If a font host is incompatible, native date rendering is retained. Previous Havoc iOS 15.1 respring report is not confirmed resolved.",
           "useSpacing": true
         },
         {
@@ -164,7 +164,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Redesigned the editor with native grouped lists and separate checkmarked selection pages for packs, colors and time formats.\n- Consolidated appearance controls, including color presets and Low Power Mode behavior.\n- Added Dynamic Type, VoiceOver labels, localized slider values and system Reduce Motion support.\n- Apply is available only for changed drafts; changes remain unapplied until you tap it.\n- Added confirmation before restarting SpringBoard.\n- Preview animations pause when the page or preview leaves the screen.\n- Includes favorite packs, optional double-tap switching and stable-release rollback links from earlier betas.\n\nPublic beta for rootless iOS 15, with experimental iOS 16–17 support. Includes arm64 and arm64e. A compatible jailbreak with tweak injection is required. The earlier Havoc iOS 15.1 respring report is not independently confirmed fixed.",
+          "markdown": "- Redesigned the editor with native grouped lists and separate checkmarked selection pages for packs, colors and time formats.\n- Consolidated appearance controls, including color presets and Low Power Mode behavior.\n- Added Dynamic Type, VoiceOver labels, localized slider values and system Reduce Motion support.\n- Apply is available only for changed drafts; changes remain unapplied until you tap it.\n- Added confirmation before restarting SpringBoard.\n- Preview animations pause when the page or preview leaves the screen.\n- Includes favorite packs, optional double-tap switching from earlier betas.\n\nPublic beta for rootless iOS 15, with experimental iOS 16–17 support. Includes arm64 and arm64e. A compatible jailbreak with tweak injection is required. The earlier Havoc iOS 15.1 respring report is not independently confirmed fixed.",
           "useSpacing": true
         },
         {
@@ -186,7 +186,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Choose favorite packs in Settings; enable double-tap switching and select at least two. Deleted or unavailable packs are skipped.\n- Animated preview with draft appearance controls and explicit Apply; existing Lock Screen settings change only when applied.\n- Fixed preview animation restarting while its page was no longer visible after returning from the background.\n- Added a stable release archive and a shortcut in Settings for rollback. Existing stable packages are retained.\n- Profile saving remains Pro-only.\n\nPublic beta. Built for arm64 and arm64e. iOS 16–17 compatibility remains experimental. Device testing of gestures, charging and wallpaper editing is required.",
+          "markdown": "- Choose favorite packs in Settings; enable double-tap switching and select at least two. Deleted or unavailable packs are skipped.\n- Animated preview with draft appearance controls and explicit Apply; existing Lock Screen settings change only when applied.\n- Fixed preview animation restarting while its page was no longer visible after returning from the background.\n- Profile saving remains Pro-only.\n\nPublic beta. Built for arm64 and arm64e. iOS 16–17 compatibility remains experimental. Device testing of gestures, charging and wallpaper editing is required.",
           "useSpacing": true
         },
         {
@@ -208,7 +208,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Added German, Polish, Swedish and Norwegian Bokmål settings translations, selected automatically from the phone language.\n- Experimental wake-up flicker fix: preserve a static digit frame while detached and refresh immediately when the screen/view returns (needs device testing).\n- Includes earlier beta adapter detection, charging/status and wallpaper/music transition changes.\n- Please report repeated wake/sleep behavior, seconds, custom packs and translation/layout issues.\n\nPublic beta: iOS 16–17 support remains experimental. The earlier adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. The new wake-up flicker change and charging/transition changes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. The stable release remains available for rollback.",
+          "markdown": "- Added German, Polish, Swedish and Norwegian Bokmål settings translations, selected automatically from the phone language.\n- Experimental wake-up flicker fix: preserve a static digit frame while detached and refresh immediately when the screen/view returns (needs device testing).\n- Includes earlier beta adapter detection, charging/status and wallpaper/music transition changes.\n- Please report repeated wake/sleep behavior, seconds, custom packs and translation/layout issues.\n\nPublic beta: iOS 16–17 support remains experimental. The earlier adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. The new wake-up flicker change and charging/transition changes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough.",
           "useSpacing": true
         },
         {
@@ -219,7 +219,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Fixed modern adapter selection on systems with setDisplayDate: but no displayDate getter.\n- Capture display dates from the system setter instead of calling a missing getter.\n- Added transient-subtitle detection and guarded subtitle-update hooks to address charging/status overlap (needs device testing).\n- Added per-instance stock-clock visibility handling for wallpaper and music-artwork transitions (needs device testing).\n- Expanded diagnostics with selector availability and instance method names.\n\nPublic beta: iOS 16–17 support remains experimental. The adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. New charging/status and wallpaper/music-transition fixes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough. The stable release remains available for rollback.",
+          "markdown": "- Fixed modern adapter selection on systems with setDisplayDate: but no displayDate getter.\n- Capture display dates from the system setter instead of calling a missing getter.\n- Added transient-subtitle detection and guarded subtitle-update hooks to address charging/status overlap (needs device testing).\n- Added per-instance stock-clock visibility handling for wallpaper and music-artwork transitions (needs device testing).\n- Expanded diagnostics with selector availability and instance method names.\n\nPublic beta: iOS 16–17 support remains experimental. The adapter-selection fix was confirmed on iPhone X, iOS 16.1.2, Roothide 2.4.9.27. New charging/status and wallpaper/music-transition fixes still need device testing. A compatible jailbreak with tweak injection is required; TrollStore alone is not enough.",
           "useSpacing": true
         },
         {
@@ -230,7 +230,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Added an experimental runtime-selected clock adapter for iOS 16–17; not yet verified on devices.\n- Retained the legacy iOS 15 adapter.\n- Added Export diagnostics in Settings for tester reports; no automatic upload or notification text collection.\n- Added the Circuit animated pack with transparent backgrounds and a red colon.\n- Added beta notices in English, Russian and Ukrainian.\n- Built the tweak and preferences bundle for arm64 and arm64e.\n\nPublic beta: iOS 16–17 support is experimental and has not been verified on a device. iOS 15 uses the legacy adapter. A compatible rootless jailbreak and tweak injection are required; TrollStore alone is not enough. Keep the stable release available for rollback.",
+          "markdown": "- Added an experimental runtime-selected clock adapter for iOS 16–17; not yet verified on devices.\n- Retained the legacy iOS 15 adapter.\n- Added Export diagnostics in Settings for tester reports; no automatic upload or notification text collection.\n- Added the Circuit animated pack with transparent backgrounds and a red colon.\n- Added beta notices in English, Russian and Ukrainian.\n- Built the tweak and preferences bundle for arm64 and arm64e.\n\nPublic beta: iOS 16–17 support is experimental and has not been verified on a device. iOS 15 uses the legacy adapter. A compatible rootless jailbreak and tweak injection are required; TrollStore alone is not enough.",
           "useSpacing": true
         },
         {
