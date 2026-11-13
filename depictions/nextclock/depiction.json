@@ -14,12 +14,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**public testing**\n\nChoose a separate clock pack for each Lock Screen wallpaper in Configure clock. Use the global pack action to remove an assignment. The new controls and messages are localized in all nine NextClock languages. Wallpaper pack switching was tested on iPhone X / iOS 16.7.5. Other devices and iOS versions still need testing.",
+          "markdown": "**NextClock 1.2.0**\n\nAdds live preview, favorite packs, date font customization and clock packs per wallpaper. Always-On Display and iOS 16–18 support are experimental. A tester reported working clocks on iOS 18.7.1.",
           "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "You can always roll back to the stable release 1.1.1.",
+          "markdown": "You can roll back to version 1.1.1.",
           "useSpacing": true
         },
         {
@@ -65,7 +65,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n- Six bundled packs, including Circuit and animated Halloween\n- Import folders, ZIP and .nextclock packs\n- Animation speed, Low Power Mode, size, spacing and vertical offset\n- System/12-hour/24-hour time, optional seconds, date hiding and tint\n- Nine languages: English, Ukrainian, Russian, German, Polish, Swedish, Norwegian Bokmål, Italian and French\n\n### Compatibility\nRootless iOS 15 supported. iOS 16–17 support remains experimental with limited tester reports. Includes arm64 and arm64e binaries. Requires a compatible jailbreak with tweak injection and PreferenceLoader; TrollStore alone is not enough. iOS 13–14 is not supported in this release.\n\nPreviously confirmed on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1) and iPhone 13 Pro Max (iOS 15.1.1). Limited beta reports include iPhone X / iOS 16.1.2 / Roothide and iPhone 14 / iOS 16.6 / nathanLR. Latest local checks passed on the development iPhone 7 Plus.\n\nPromotional screenshots have been translated into English.",
+          "markdown": "### Features\n- Bundled packs including Circuit\n- Import folders, ZIP and .nextclock packs\n- Animation speed, Low Power Mode, size, spacing and vertical offset\n- System/12-hour/24-hour time, optional seconds, date hiding and tint\n- Nine languages: English, Ukrainian, Russian, German, Polish, Swedish, Norwegian Bokmål, Italian and French\n\n### Compatibility\nRootless iOS 15 supported. iOS 16–18 support remains experimental with limited tester reports. Includes arm64 and arm64e binaries. Requires a compatible jailbreak with tweak injection and PreferenceLoader; TrollStore alone is not enough. iOS 13–14 is not supported in this release.\n\nPreviously confirmed on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1) and iPhone 13 Pro Max (iOS 15.1.1). Limited beta reports include iPhone X / iOS 16.1.2 / Roothide and iPhone 14 / iOS 16.6 / nathanLR. Latest local checks passed on the development iPhone 7 Plus.\n\nPromotional screenshots have been translated into English.",
           "useSpacing": true
         },
         {
@@ -80,17 +80,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "25.48 MB"
+          "text": "14.59 MB"
         },
         {
           "class": "DepictionTableTextView",
           "title": "iOS Versions",
-          "text": "15.x; 16–17 experimental"
+          "text": "15.x; 16–18 experimental"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "November 2, 2026"
+          "text": "November 13, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -114,7 +114,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Support is entirely optional and does not unlock additional features. Includes adaptations from [FlexClock](https://github.com/tr3tol/FlexClock) by [tr3tol](https://github.com/tr3tol). [Source code (GPLv3)](https://github.com/RAtnik00/NextClock/tree/v1.2.0-beta7). Third-party artwork is separately credited.",
+          "markdown": "Support is entirely optional and does not unlock additional features. Includes adaptations from [FlexClock](https://github.com/tr3tol/FlexClock) by [tr3tol](https://github.com/tr3tol). [Source code (GPLv3)](https://github.com/RAtnik00/NextClock/tree/v1.2.0). Third-party artwork is separately credited.",
           "useSpacing": true
         }
       ]
@@ -123,6 +123,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.0",
+          "useMargins": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds live preview, favorite packs, date font customization and clock packs per wallpaper. Always-On Display and iOS 16–18 support are experimental. A tester reported working clocks on iOS 18.7.1.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "Packs per Lock Screen",
