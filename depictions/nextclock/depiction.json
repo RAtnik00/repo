@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**NextClock 1.2.0**\n\nAdds live preview, favorite packs, date font customization and clock packs per wallpaper. Always-On Display and iOS 16–18 support are experimental. A tester reported working clocks on iOS 18.7.1.",
+          "markdown": "**NextClock 1.2.0**\n\nSupports rootless iOS 15–18. Compatibility on iOS 16–18 and Always-On Display rendering are experimental. A tester reported working clocks on iOS 18.7.1. Includes live preview, favorite packs, date font customization and clock packs per wallpaper.",
           "useSpacing": true
         },
         {
@@ -85,7 +85,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "iOS Versions",
-          "text": "15.x; 16–18 experimental"
+          "text": "15–18 (rootless; 16–18 experimental)"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,7 +131,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Adds live preview, favorite packs, date font customization and clock packs per wallpaper. Always-On Display and iOS 16–18 support are experimental. A tester reported working clocks on iOS 18.7.1.",
+          "markdown": "Supports rootless iOS 15–18. Compatibility on iOS 16–18 and Always-On Display rendering are experimental. A tester reported working clocks on iOS 18.7.1. Includes live preview, favorite packs, date font customization and clock packs per wallpaper.",
           "useSpacing": true
         },
         {
