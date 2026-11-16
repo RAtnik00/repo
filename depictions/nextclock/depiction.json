@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**NextClock 1.2.0**\n\nSupports rootless iOS 15–18. Compatibility on iOS 16–18 and Always-On Display rendering are experimental. A tester reported working clocks on iOS 18.7.1. Includes live preview, favorite packs, date font customization and clock packs per wallpaper.",
+          "markdown": "**NextClock 1.2.0**\n\nSupports rootless iOS 15–18. Always-On Display rendering is experimental. A tester reported working clocks on iOS 18.7.1. Includes live preview, favorite packs, date font customization and clock packs per wallpaper.",
           "useSpacing": true
         },
         {
@@ -65,7 +65,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n- Bundled packs including Circuit\n- Import folders, ZIP and .nextclock packs\n- Animation speed, Low Power Mode, size, spacing and vertical offset\n- System/12-hour/24-hour time, optional seconds, date hiding and tint\n- Nine languages: English, Ukrainian, Russian, German, Polish, Swedish, Norwegian Bokmål, Italian and French\n\n### Compatibility\nRootless iOS 15 supported. iOS 16–18 support remains experimental with limited tester reports. Includes arm64 and arm64e binaries. Requires a compatible jailbreak with tweak injection and PreferenceLoader; TrollStore alone is not enough. iOS 13–14 is not supported in this release.\n\nPreviously confirmed on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1) and iPhone 13 Pro Max (iOS 15.1.1). Limited beta reports include iPhone X / iOS 16.1.2 / Roothide and iPhone 14 / iOS 16.6 / nathanLR. Latest local checks passed on the development iPhone 7 Plus.\n\nPromotional screenshots have been translated into English.",
+          "markdown": "### Features\n- Bundled packs including Circuit\n- Import folders, ZIP and .nextclock packs\n- Animation speed, Low Power Mode, size, spacing and vertical offset\n- System/12-hour/24-hour time, optional seconds, date hiding and tint\n- Nine languages: English, Ukrainian, Russian, German, Polish, Swedish, Norwegian Bokmål, Italian and French\n\n### Compatibility\nSupports rootless iOS 15–18. Includes arm64 and arm64e binaries. Requires a compatible jailbreak with tweak injection and PreferenceLoader; TrollStore alone is not enough. iOS 13–14 is not supported in this release.\n\nPreviously confirmed on iPhone 7 Plus (iOS 15.8.8), iPhone 12 (iOS 15.3.1) and iPhone 13 Pro Max (iOS 15.1.1). Limited beta reports include iPhone X / iOS 16.1.2 / Roothide and iPhone 14 / iOS 16.6 / nathanLR. Latest local checks passed on the development iPhone 7 Plus.\n\nPromotional screenshots have been translated into English.",
           "useSpacing": true
         },
         {
@@ -85,7 +85,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "iOS Versions",
-          "text": "15–18 (rootless; 16–18 experimental)"
+          "text": "15–18 (rootless)"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,7 +131,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Supports rootless iOS 15–18. Compatibility on iOS 16–18 and Always-On Display rendering are experimental. A tester reported working clocks on iOS 18.7.1. Includes live preview, favorite packs, date font customization and clock packs per wallpaper.",
+          "markdown": "Supports rootless iOS 15–18. Always-On Display rendering is experimental. A tester reported working clocks on iOS 18.7.1. Includes live preview, favorite packs, date font customization and clock packs per wallpaper.",
           "useSpacing": true
         },
         {

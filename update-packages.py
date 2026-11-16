@@ -35,6 +35,8 @@ for path in sorted((root / 'debs').glob('*.deb')):
     if 'Package: com.ratnik00.nextclock' in fields.splitlines():
         fields = '\n'.join(line for line in fields.splitlines()
                            if not line.startswith(('Depiction:', 'SileoDepiction:')))
+        if 'Version: 1.2.0' in fields.splitlines():
+            fields = fields.replace(' iOS 16-18 support is experimental.', '')
         fields += '\nDepiction: https://ratnik00.github.io/repo/depictions/nextclock/'
         fields += '\nSileoDepiction: https://ratnik00.github.io/repo/depictions/nextclock/depiction.json'
     fields += f'\nFilename: debs/{path.name}\nSize: {len(data)}\n'

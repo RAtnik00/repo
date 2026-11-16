@@ -152,7 +152,7 @@ SHA256: e7c165205de49aa022f39adbbafded570e67f4415102fd89e9ed065fbe955ec1
 
 Package: com.ratnik00.nextclock
 Name: NextClock
-Description: Animated Lock Screen clocks for rootless iOS 15-18. iOS 16-18 support is experimental.
+Description: Animated Lock Screen clocks for rootless iOS 15-18.
 Maintainer: RAtnik00
 Author: RAtnik00
 Section: Tweaks
